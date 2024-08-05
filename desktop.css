@@ -1,0 +1,154 @@
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/* navbar design starts here */
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.nav-heading h1 {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 170px;
+}
+.navbar-menu {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-menu a {
+  background-color: transparent;
+}
+.navbar-menu a:hover {
+  background-color: rgb(44, 236, 44);
+}
+/* navbar design ends here */
+
+/* profile design starts here */
+
+.icon1 {
+  position: absolute;
+  right: 20px;
+  bottom: 450px;
+  width: 400px;
+  transition: 2s;
+  border: 2px solid rgb(31, 29, 29);
+  box-shadow: 5px 7px 3px rgb(31, 29, 29);
+}
+.icon1:hover {
+  transform: scale(1.1);
+}
+.profile-desc h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px rgb(29, 28, 28);
+}
+.profile-desc p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(2, 79, 81);
+  font-size: 2rem;
+  font-style: italic;
+  padding: 5px;
+}
+
+/* profile design ends here */
+
+/* about me design starts here */
+.aboutme-image {
+  margin-top: 100px;
+}
+.aboutme-image img {
+  height: 310px;
+  width: 290px;
+}
+.aboutme-desc p {
+  text-align: left;
+}
+/* about me design ends here */
+
+/* professional exp design starts from here */
+
+/* professional exp design ends from here */
+
+/* contact starts here */
+.contact input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+.contact button {
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(2, 25, 56);
+  color: antiquewhite;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+}
+.contact-links {
+  position: relative;
+}
+.media-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+}
+
+/* footer starts here */
+.footer-menu {
+  margin-top: 12px;
+}
+.footer-menu a {
+  display: inline;
+  margin: 10px;
+}
+.footer-menu a:hover {
+  color: rgb(88, 6, 251);
+}
+
+/* footer ends here */
